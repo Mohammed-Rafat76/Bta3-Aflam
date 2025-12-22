@@ -6,12 +6,17 @@ import { HiMenuAlt3 } from "react-icons/hi";
 
 export default function Header() {
   return (
-    <div className=" text-white w-full h-[120px] flex justify-between items-center py-[30px] xl:px-[162px] px-4 fixed top-0 left-0 z-50 bg-transparent">
+    <div
+      className=" text-white w-full h-[120px] flex justify-between items-center py-[30px] xl:px-[162px] px-4 fixed top-0 left-0 z-50 bg-transparent bg-linear-to-b 
+    from-black/90 
+    via-black/60 
+    to-black/0"
+    >
       <div className="flex justify-center items-center">
         <img className="w-[60px] h-[60px]" src={logo} alt="" />
         <h1 className="pl-1.5 text-2xl font-bold text-[#FFFFFF]">Bta3Aflam</h1>
       </div>
-      <nav className="hidden  bg-[#0F0F0F] h-[75px] rounded-xl border-4 border-[#1F1F1F] py-2.5 pr-10 pl-2.5 md:flex justify-center items-center gap-[30px]">
+      <nav className="hidden  bg-[#0F0F0F] h-[75px] rounded-xl border-4 border-[#1F1F1F] py-2.5 pr-10 pl-2.5 lg:flex justify-center items-center gap-[30px]">
         <NavLink
           className={({ isActive }) =>
             isActive
