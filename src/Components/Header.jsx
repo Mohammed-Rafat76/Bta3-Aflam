@@ -59,8 +59,8 @@ export default function Header() {
         </NavLink>
       </nav>
       <div className=" hidden w-[98px] h-[34px] md:flex gap-[30px] justify-center items-center font-bold">
-        <FaSearch className="cursor-pointer" />
-        <PiBellSimpleRingingBold className="cursor-pointer" />
+        <FaSearch className="text-[25px] hover:text-red-500 duration-150 cursor-pointer" />
+        <PiBellSimpleRingingBold className="text-[25px] hover:text-red-500 duration-150 cursor-pointer" />
       </div>
       <div className="md:hidden w-12 h-12 rounded-lg border-[3px] p-3 border-[#262626] bg-[#1A1A1A]">
         <HiMenuAlt3 />

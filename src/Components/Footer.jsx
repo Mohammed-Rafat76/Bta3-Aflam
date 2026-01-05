@@ -3,7 +3,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 export default function Footer() {
   return (
-    <div className="w-full h-[700px] md:h-[505px] px-4 md:px-[162px] pt-[50px] md:pt-[100px] md:pb-[50px] pb-5 bg-[#0F0F0F] flex flex-col justify-between gap-[50px]">
+    <div className="w-full h-[700px] md:h-[505px] px-4 md:px-20 pt-[50px] md:pt-[100px] md:pb-[50px] pb-5 bg-[#0F0F0F] flex flex-col justify-between gap-[50px]">
       <div className="h-[204px] xl:flex gap-[30px] ] justify-center items-start grid grid-cols-2 ">
         <div className="w-[179px] pb-[30px] lg:pb-0 lg:w-[241px] flex flex-col lg:gap-6 gap-4">
           <h1 className="font-semibold lg:text-[20px] text-[16px] text-[#FFFFFF]">Home</h1>
