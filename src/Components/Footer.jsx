@@ -3,9 +3,9 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 export default function Footer() {
   return (
-    <div className="w-full h-[700px] md:h-[505px] px-4 md:px-20 pt-[50px] md:pt-[100px] md:pb-[50px] pb-5 bg-[#0F0F0F] flex flex-col justify-between gap-[50px]">
-      <div className="h-[204px] xl:flex gap-[30px] ] justify-center items-start grid grid-cols-2 ">
-        <div className="w-[179px] pb-[30px] lg:pb-0 lg:w-[241px] flex flex-col lg:gap-6 gap-4">
+    <div className="w-full h-175 md:h-126.25 px-4 md:px-20 pt-12.5 md:pt-25 md:pb-12.5 pb-5 bg-[#0F0F0F] flex flex-col justify-between gap-12.5">
+      <div className="h-51 xl:flex gap-7.5 ] justify-center grid grid-cols-2 text-center">
+        <div className="w-44.75 pb-7.5 lg:pb-0 lg:w-60.25 flex flex-col lg:gap-6 gap-4">
           <h1 className="font-semibold lg:text-[20px] text-[16px] text-[#FFFFFF]">Home</h1>
           <div className="flex lg:gap-3.5 gap-2 flex-col">
             <h1 className="font-medium lg-text-[18px] text-[14px] text-[#999999]">
@@ -16,7 +16,7 @@ export default function Footer() {
             <h1 className="font-medium lg-text-[18px] text-[14px] text-[#999999]">FAQ</h1>
           </div>
         </div>
-        <div className="w-[179px] pb-[30px] lg:pb-0 lg:w-[241px] flex flex-col lg:gap-6 gap-4">
+        <div className="w-44.75 pb-7.5 lg:pb-0 lg:w-60.25 flex flex-col lg:gap-6 gap-4">
           <h1 className="font-semibold lg:text-[20px] text-[16px] text-[#FFFFFF]">Movies</h1>
           <div className="flex lg:gap-3.5 gap-2 flex-col">
             <h1 className="font-medium lg-text-[18px] text-[14px] text-[#999999]">Gernes</h1>
@@ -27,7 +27,7 @@ export default function Footer() {
             <h1 className="font-medium lg-text-[18px] text-[14px] text-[#999999]">Popular</h1>
           </div>
         </div>
-        <div className="w-[179px] pb-[30px] lg:pb-0 lg:w-[241px] flex flex-col lg:gap-6 gap-4">
+        <div className="w-44.75 pb-7.5 lg:pb-0 lg:w-60.25 flex flex-col lg:gap-6 gap-4">
           <h1 className="font-semibold lg:text-[20px] text-[16px] text-[#FFFFFF]">Shows</h1>
           <div className="flex lg:gap-3.5 gap-2 flex-col">
             <h1 className="font-medium lg-text-[18px] text-[14px] text-[#999999]">Gernes</h1>
@@ -38,7 +38,7 @@ export default function Footer() {
             <h1 className="font-medium lg-text-[18px] text-[14px] text-[#999999]">Popular</h1>
           </div>
         </div>
-        <div className="w-[179px] pb-[30px] lg:pb-0 lg:w-[241px] flex flex-col lg:gap-6 gap-4">
+        <div className="w-44.75 pb-7.5 lg:pb-0 lg:w-60.25 flex flex-col lg:gap-6 gap-4">
           <h1 className="font-semibold lg:text-[20px] text-[16px] text-[#FFFFFF]">Support</h1>
           <div className="flex lg:gap-3.5 gap-2 flex-col">
             <h1 className="font-medium lg-text-[18px] text-[14px] text-[#999999]">
@@ -46,7 +46,7 @@ export default function Footer() {
             </h1>
           </div>
         </div>
-        <div className="w-[179px] pb-[30px] lg:pb-0 lg:w-[241px] flex flex-col lg:gap-6 gap-4">
+        <div className="w-44.75 pb-7.5 lg:pb-0 lg:w-60.25 flex flex-col lg:gap-6 gap-4">
           <h1 className="font-semibold lg:text-[20px] text-[16px] text-[#FFFFFF]">
             Subscription
           </h1>
@@ -55,7 +55,7 @@ export default function Footer() {
             <h1 className="font-medium lg-text-[18px] text-[14px] text-[#999999]">Features</h1>
           </div>
         </div>
-        <div className="w-[179px] pb-[30px] lg:pb-0 lg:w-[241px] flex flex-col lg:gap-6 gap-4">
+        <div className="w-44.75 pb-7.5 lg:pb-0 lg:w-60.25 flex flex-col lg:gap-6 gap-4">
           <h1 className="font-semibold lg:text-[20px] text-[16px] text-[#FFFFFF]">
             Connect With Us
           </h1>
