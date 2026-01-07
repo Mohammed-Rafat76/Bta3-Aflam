@@ -1,3 +1,4 @@
+import Choose from "../Components/Choose";
 import Devices from "../Components/Devices";
 import Explore from "../Components/Explore";
 import Frequently from "../Components/Frequently";
@@ -14,6 +15,9 @@ export default function Home() {
       </div>
       <div className="md:px-20 px-4 pb-40">
       <Frequently/>
+      </div>
+      <div className="md:px-20 px-4 pb-40">
+      <Choose/>
       </div>
     </div>
   );

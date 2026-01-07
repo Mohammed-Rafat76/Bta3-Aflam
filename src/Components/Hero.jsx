@@ -34,7 +34,7 @@ export default function Hero() {
               </p>
             </div>
             <button
-              class="cursor-pointer inline-flex items-center rounded-full lg:px-9 px-5 lg:py-3 py-1.5 lg:text-xl text-[15px] font-mono font-semibold text-rose-600 hover:text-white border-2 border-rose-600
+              className="cursor-pointer inline-flex items-center rounded-full lg:px-9 px-5 lg:py-3 py-1.5 lg:text-xl text-[15px] font-mono font-semibold text-rose-600 hover:text-white border-2 border-rose-600
          transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-75 hover:bg-rose-600 duration-300  focus:bg-transparent"
             >
               <FaPlay className="pr-2.5 lg:w-6.25 lg:h-6.25 w-5 h-5 " />{" "}
