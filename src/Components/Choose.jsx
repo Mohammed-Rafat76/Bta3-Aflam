@@ -5,12 +5,12 @@ export default function Choose() {
   const [active, setActive] = useState("Monthly");
   return (
     <div className="flex flex-col gap-16">
-      <div className="flex gap-20">
+      <div className="flex flex-col items-start justify-center lg:flex-row lg:gap-20 gap-5">
         <div className="flex gap-2.5 flex-col items-start justify-center">
-          <h1 className="font-bold text-[#FFFFFF] text-[28px] ">
+          <h1 className="font-bold text-[#FFFFFF] lg:text-[28px] text-[24px] ">
             Choose the plan that's right for you
           </h1>
-          <p className="font-normal text-[16px] text-[#999999] ">
+          <p className="font-normal lg:text-[16px] text-[14px] text-[#999999] ">
             Join StreamVibe and select from our flexible subscription options
             tailored to suit your viewing preferences. Get ready for non-stop
             entertainment!

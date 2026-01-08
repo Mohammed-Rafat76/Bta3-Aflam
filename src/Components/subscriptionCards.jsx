@@ -1,13 +1,13 @@
 export default function SubscriptionCards() {
   return (
-    <div className="flex gap-5">
-      <div className="card transition hover:scale-110 ease-in-out duration-200  delay-100 bg-[#1A1A1A] rounded-[10px] border border-[#262626] p-10 shadow-sm">
-        <div className="card-body gap-10">
+    <div className="flex flex-col lg:flex-row gap-5">
+      <div className="card transition hover:scale-110 ease-in-out duration-200  delay-100 bg-[#1A1A1A] rounded-[10px] border border-[#E50000] lg:p-10 p-6 shadow-sm">
+        <div className="card-body lg:gap-10 gap-7.5 p-0">
           <div className="flex flex-col gap-3">
             <div className="flex justify-between">
             <h2 className="text-[20px] text-[#FFFFFF] font-bold">Basic Plan</h2>
           </div>
-          <p className="font-normal text-[16px] text-[#999999] ">
+          <p className="font-normal lg:text-[16px] text-[14px] text-[#999999] ">
             Enjoy an extensive library of movies and shows, featuring a range of
             content, including recently released titles.
           </p>
@@ -21,13 +21,13 @@ export default function SubscriptionCards() {
           </div>
         </div>
       </div>
-      <div className="card transition hover:scale-110 ease-in-out duration-200  delay-100 bg-[#1A1A1A] rounded-[10px] border border-[#262626] p-10 shadow-sm">
-        <div className="card-body gap-10">
+      <div className="card transition hover:scale-110 ease-in-out duration-200  delay-100 bg-[#1A1A1A] rounded-[10px] border border-[#E50000] lg:p-10 p-6 shadow-sm">
+        <div className="card-body lg:gap-10 gap-7.5 p-0">
           <div className="flex flex-col gap-3">
             <div className="flex justify-between">
             <h2 className="text-[20px] text-[#FFFFFF] font-bold">Standard Plan</h2>
           </div>
-          <p className="font-normal text-[16px] text-[#999999] ">
+          <p className="font-normal lg:text-[16px] text-[14px] text-[#999999] ">
             Access to a wider selection of movies and shows, including most new releases and exclusive content
           </p>
           </div>
@@ -40,13 +40,13 @@ export default function SubscriptionCards() {
           </div>
         </div>
       </div>
-      <div className="card transition hover:scale-110 ease-in-out duration-200  delay-100 bg-[#1A1A1A] rounded-[10px] border border-[#262626] p-10 shadow-sm">
-        <div className="card-body gap-10">
+      <div className="card transition hover:scale-110 ease-in-out duration-200  delay-100 bg-[#1A1A1A] rounded-[10px] border border-[#E50000] lg:p-10 p-6 shadow-sm">
+        <div className="card-body lg:gap-10 gap-7.5 p-0">
           <div className="flex flex-col gap-3">
             <div className="flex justify-between">
             <h2 className="text-[20px] text-[#FFFFFF] font-bold">Premium Plan</h2>
           </div>
-          <p className="font-normal text-[16px] text-[#999999] ">
+          <p className="font-normal lg:text-[16px] text-[14px] text-[#999999] ">
             Access to a widest selection of movies and shows, including all new releases and Offline Viewing
           </p>
           </div>
