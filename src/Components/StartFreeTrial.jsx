@@ -1,7 +1,7 @@
 import backGround from "../assets/imges.png";
 export default function StartFreeTrial() {
   return (
-    <div>
+    <div  className="md:px-20 px-4 pb-40">
       <div className="h-86 lg:h-59 relative bg-cover bg-center overflow-hidden rounded-xl border lg:py-20 py-12.5 lg:px-15 px-7.5  bg-[#0F0F0F] border-[#262626] "  style={{ backgroundImage: `url(${backGround})` }}>
          <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative  z-10 flex flex-col lg:flex-row items-center lg:justify-between justify-center lg:gap-25 gap-12.5">

@@ -20,9 +20,7 @@ export default function Home() {
       <div className="md:px-20 px-4 pb-40">
       <Choose/>
       </div>
-      <div className="md:px-20 px-4 pb-40">
-      <StartFreeTrial/>
-      </div>
+     
     </div>
   );
 }
