@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainLayout from "./MainLayout";
 import Home from "./Pages/Home";
+import Movies from "./Pages/Movies";
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Home/>}/>
-            <Route path="/Movies-&-Shows" element={"Movies & Shows"} />
+            <Route path="/Movies-&-Shows" element={<Movies/>} />
             <Route path="/Support" element={"Support"}/>
             <Route path="/Subscriptions" element={"Subscriptions"}/>
           </Route>

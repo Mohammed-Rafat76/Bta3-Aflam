@@ -3,7 +3,6 @@ import Devices from "../Components/Devices";
 import Explore from "../Components/Explore";
 import Frequently from "../Components/Frequently";
 import Hero from "../Components/Hero";
-import StartFreeTrial from "../Components/StartFreeTrial";
 export default function Home() {
   return (
     <div className="bg-[#0F0F0F]">
